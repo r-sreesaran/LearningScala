@@ -12,5 +12,5 @@ object SuperDigit {
 
     println(Stream.iterate(k * qs(n))(qs(_)).find(_ < 10).get)
   }
-
+io.Source.stdin
 }
